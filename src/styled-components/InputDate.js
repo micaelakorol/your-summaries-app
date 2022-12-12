@@ -6,16 +6,16 @@ const InputContainer = styled.section`
  
     input {
         font-family: 'Work Sans', sans-serif;
-        background: ${theme.azulClaro};
-        color: #fff;
+        background: ${theme.blueLight};
+        color: ${theme.white};
         border: none;
         cursor: pointer;
-        border-radius: 0.625rem; /* 10px */
+        border-radius: 0.625rem;
         height: 2.5rem; 
         width: 300px;
         max-width: 100%;
         padding: 1rem;
-        font-size: 1rem; /* 24px */
+        font-size: 1rem;
         text-align: center;
         display: flex;
         align-items: center;
@@ -33,14 +33,13 @@ const InputContainer = styled.section`
     }
  
     .rdp-month {
-        background: #fff;
+        background: ${theme.white};
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         padding: 20px;
         border-radius: 10px;
     }
  
     @media (max-width: 950px) {
-        /* 950px */
         & > * {
             max-width: 60%;
         }

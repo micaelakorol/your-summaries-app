@@ -3,7 +3,7 @@ import {theme} from './Theme';
 
 const slideDown = keyframes`
     0% {
-        transform: translateY(-1.25rem); /* 20px */
+        transform: translateY(-1.25rem); 
         opacity: 0;
     }
  
@@ -23,11 +23,11 @@ const slideDown = keyframes`
     }
 `;
  
-const AlertContainer = styled.div`
+const AlertContainer = styled.section`
     z-index: 1000;
     width: 100%;
     left: 0;
-    top: 1.25rem; /* 20px */
+    top: 1.25rem; 
     position: fixed;
     display: flex;
     justify-content: center;
@@ -37,16 +37,16 @@ const AlertContainer = styled.div`
     p {
         background: ${(props) => {
             if(props.tipo === 'error'){
-                return theme.rojo;
+                return theme.red;
             } else if (props.tipo === 'exito') {
-                return theme.verde;
+                return theme.green;
             } else {
-                return '#000';
+                return theme.dark;
             }
         }};
-        color: #fff;
-        padding: 1.25rem 2.5rem; /* 20px 40px */
-        border-radius: 0.31rem; /* 5px */
+        color: ${theme.white};
+        padding: 1.25rem 2.5rem; 
+        border-radius: 0.31rem; 
         box-shadow: 0px 0px 15px rgba(0,0,0,.1);
         text-align: center;
     }

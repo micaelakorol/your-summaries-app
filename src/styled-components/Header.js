@@ -29,19 +29,18 @@ const ContainerHeader = styled.header`
   justify-content: space-between;
 
   @media (max-width: 950px) {
-    /* 950px */
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
 
     & > div {
       display: flex;
-      margin-bottom: 1.25rem; /* 20px */
+      margin-bottom: 1.25rem;
     }
   }
 `;
 
-const ContainerBtn = styled.div`
+const ContainerBtn = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;

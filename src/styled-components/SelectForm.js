@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import {theme} from './Theme'
 
 const ContainerSelect = styled.div`
-    background: ${theme.azulClaro};
+    background: ${theme.blueLight};
     color: #fff;
     cursor: pointer;
-    border-radius: 0.625rem; /* 10px */
+    border-radius: 0.625rem;
     position: relative;
     height: 2.5rem; 
     width: 25%;
@@ -28,7 +28,7 @@ const SelectedOption = styled.div`
     svg {
         width: 1.25rem;
         height: auto;
-        margin-left: 1.25rem; /* 20px */
+        margin-left: 1.25rem;
     }
 `;
  
@@ -38,21 +38,21 @@ const Options = styled.div`
     top: 3rem; 
     left: 0;
     width: 100%;
-    border-radius: 0.625rem; /* 10px */
-    max-height: 18.75rem; /* 300px */
+    border-radius: 0.625rem; 
+    max-height: 18.75rem; 
     overflow-y: auto;
 `;
  
 const Option = styled.div`
-    padding: 1.25rem; /* 20px */
+    padding: 1.25rem;
     display: flex;
     svg {
         width: 28px;
         height: auto;
-        margin-right: 1.25rem; /* 20px */
+        margin-right: 1.25rem;
     }
     &:hover {
-        background: ${theme.grisClaro2};
+        background: ${theme.lightGray2};
     }
 `;
 

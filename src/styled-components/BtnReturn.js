@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {ReactComponent as IconArrow} from './../assets/flecha.svg';
 import {useNavigate} from 'react-router-dom';
+import { theme } from './Theme';
 
 const Btn = styled.button`
     display: block;
@@ -11,25 +12,25 @@ const Btn = styled.button`
     text-align: center;
     margin: 1rem 1.25rem 0 0;
     border: none;
-    background: #0D1A1D;
-    color: #fff;
+    background: ${theme.btnReturn};
+    color: ${theme.white};
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0.31rem; /* 5px */
+    border-radius: 0.31rem;
     cursor: pointer;
  
     @media(max-width: 60rem){ 
-        width: 2.5rem; /* 40px */
-        height: 2.5rem; /* 40px */
-        line-height: 2.5rem; /* 40px */
+        width: 2.5rem; 
+        height: 2.5rem; 
+        line-height: 2.5rem; 
     }
 `;
  
 const Icon = styled(IconArrow)`
     width: 50%;
     height: auto;
-    fill: #fff;
+    fill: ${theme.white};
 `;
 
 const BtnReturn = () => {

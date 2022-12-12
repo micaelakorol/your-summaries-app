@@ -1,17 +1,18 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
+import { theme } from './Theme';
 
 const Button = styled(Link)`
     background: ${(props) => props.primario ? '#5B69E2' : '#000'};
     max-width: ${(props) => props.conIcono ? '11rem' : '100%'};
     margin: .6rem;
     border: none;
-    border-radius: 0.625rem; /* 10px */
-    color: #fff;
+    border-radius: 0.625rem;
+    color: ${theme.white};
     font-family: 'Work Sans', sans-serif;
     height: 2.5rem;
-    padding: 1rem 1.3rem; /* 20px 30px */
-    font-size: .9rem; /* 20px */
+    padding: 1rem 1.3rem; 
+    font-size: .9rem;
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
@@ -21,7 +22,7 @@ const Button = styled(Link)`
     outline: none;
     overflow: hidden;
     svg {
-        height: ${(props) => props.iconoGrande ? '100%' : '0.75rem;'};  /* 12px */
+        height: ${(props) => props.iconoGrande ? '100%' : '0.75rem;'};
         fill: white;
     }
 `;

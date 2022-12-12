@@ -4,18 +4,18 @@ import { theme } from "./Theme";
 const ContainerFilter = styled.section`
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.87rem; /* 30px */
+  margin-bottom: 1.87rem; 
   @media (max-width: 950px) {
     flex-direction: column;
     & > * {
       width: 100%;
-      margin-bottom: 0.62rem; /* 10px */
+      margin-bottom: 0.62rem;
     }
   }
 `;
 
 const Form = styled.form`
-  padding: 0 2.5rem; /* 40px */
+  padding: 0 2.5rem;
   height: 100%;
   overflow-x: hidden;
   display: flex;
@@ -30,7 +30,6 @@ const Form = styled.form`
     }
   }
   @media (max-width: 950px) {
-    /* 950px */
     justify-content: start;
   }
   @media (max-width: 480px) {
@@ -41,7 +40,7 @@ const Form = styled.form`
 const Input = styled.input`
     font-size: 1rem;
     border: none;
-    border-bottom: 2px solid ${theme.grisClaro};
+    border-bottom: 2px solid ${theme.lightGray};
     outline: none;
 `;
 

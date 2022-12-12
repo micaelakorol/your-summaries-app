@@ -7,7 +7,7 @@ const Footer = styled.footer`
     letter-spacing: 1px;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 0.62rem 2.25rem; /* 10px 40px */
+    padding: 0.62rem 2.25rem;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,7 @@ const Footer = styled.footer`
     bottom: 0;
     width: 100%;
  
-    @media(max-width: 500px) { /* 500px */
+    @media(max-width: 500px) { 
         flex-direction: column;
         font-size: 14px;
     }
