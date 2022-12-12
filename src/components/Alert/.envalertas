@@ -1,0 +1,12 @@
+Para que la alerta se muestre: 
+
+Debemos pasar changeAlert a true
+Luego pasar el mensaje al state alert.
+
+Donde queremos que se muestre: ejemplo Form.jsx
+
+llamamos al state alert 
+Llamamos al componente que aloja el alerta (en este caso <Alert/>)
+y le pasamos el tipo y mensaje (en este caso.)
+
+(estilos creados en alert.js) 
