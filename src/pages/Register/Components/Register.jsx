@@ -34,7 +34,7 @@ const Register = () => {
       </Headers>
       <RegisterForm />
 
-      {/* Cambia los mensajes de error dinamicamente gracias al state alert */}
+      {/* Cambia los mensajes de error dinamicamente */}
       <Alert tipo={alert.tipo} mensaje={alert.mensaje} />
     </>
   );

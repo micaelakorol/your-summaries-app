@@ -20,7 +20,7 @@ const ObtainAllSummaries = () => {
       //query: consulta
       collection(db, "expenses"), //accedemos a la ddbb
       where("uidUser", "==", userSession.uid), //buscar registros de gastos por id
-      orderBy("date", "desc"), //ordenamos por fecha descendente (necesitamos un index)
+      orderBy("date", "desc"), //ordenamos por fecha descendente
     //  limit(10) // limite de tareas a mostrar
     );
 

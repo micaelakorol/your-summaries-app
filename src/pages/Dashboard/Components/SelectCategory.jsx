@@ -9,6 +9,7 @@ import { ReactComponent as IconDown } from "../../../assets/down.svg";
 import { categories } from "../../../components/initialValues/selectCategory";
 import IconCategory from "../../../styled-components/IconCategory";
 import { CaptureCategory } from "../Functions/CaptureCategory";
+
 //Componente para seleccionar categorias:
 const SelectCategory = ({ changeCategory, setChangeCategory }) => {
   const [showSelect, setShowSelect] = useState(false);

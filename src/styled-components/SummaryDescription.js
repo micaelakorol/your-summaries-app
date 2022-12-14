@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { theme } from "./Theme";
 
 const TitleSummary = styled.h2`
 text-align: center;
@@ -15,9 +14,7 @@ color: ${(props) => (props.changeTheme ? "#fff" : "#646161")}
 
 const Theme = styled.button`
 border: none;
-background: ${theme.theme};
-padding: .9rem .4rem;
-clip-path: circle(36%);
+background: transparent;
 cursor: pointer;
 `
 const Title = styled.p`

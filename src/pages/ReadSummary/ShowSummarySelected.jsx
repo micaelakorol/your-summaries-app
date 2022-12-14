@@ -26,7 +26,7 @@ const ShowSummarySelected = ({ title, description }) => {
         <BtnReturn as={Link} to={"/summary-list"} />
         <Title>Hora de Lectura</Title>
         <Theme onClick={() => changeValue()}>
-          <img src={changeTheme ? dark : light} alt="" />
+          <img src={changeTheme ? dark : light} alt="theme dark or light" />
         </Theme>
       </Headers>
       <List>

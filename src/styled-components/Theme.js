@@ -13,5 +13,4 @@ export const theme = {
     dark: '#000',
     borderColor: '#f2f2f2',
     btnReturn: '#0D1A1D',
-    theme: 'hsl(0, 0%, 98%)'
 }

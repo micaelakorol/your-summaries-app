@@ -37,7 +37,7 @@ const BtnReturn = () => {
 	const navigate = useNavigate();
 
 	return (
-		<Btn onClick={() => navigate('/dashboard')}><Icon /></Btn>
+		<Btn onClick={() => navigate('/summary-list')}><Icon /></Btn>
 	);
 }
  

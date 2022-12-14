@@ -2,9 +2,7 @@ import { useContext } from "react";
 import { UserContext } from "../../../contexts/useContext";
 import LoginUser from "../Services/LoginUser";
 
-
 const LoginValidations = () => {
-  //ver como reutilizar alertas
 
   const { email, password, setAlert, setChangeAlert } = useContext(UserContext);
   let expEmail = /[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+/;
@@ -31,7 +29,6 @@ const LoginValidations = () => {
       return;
     }
     LogIn();
-    //return hace que salgamos de la funcion para dejar de ejecutar codigo.
   };
 
   return { handleSubmitLogin };
