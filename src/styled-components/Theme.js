@@ -13,4 +13,7 @@ export const theme = {
     dark: '#000',
     borderColor: '#f2f2f2',
     btnReturn: '#0D1A1D',
+    colorInput: '#342674',
+    colorTextArea: '#562D4A',
+    colorSvg: '#91BD08'
 }

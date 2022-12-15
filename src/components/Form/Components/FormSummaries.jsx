@@ -43,6 +43,7 @@ setEditSummary() //actualiza la descripcion del boton al montarse
           value={titleSummary}
           onChange={handleChange}
           placeholder="Titulo"
+          maxLength='24'
         />
         <TextArea
           name="resumeDescription"

@@ -42,16 +42,17 @@ const Input = styled.input`
     border: none;
     border-bottom: 2px solid ${theme.lightGray};
     outline: none;
+    color: ${theme.colorInput};
 `;
 
 const TextArea = styled.textarea`
-  font-size: 1.2rem !important;
+  font-size: 1.1rem;
   padding: 0.5rem;
   border: none;
   text-align: center;
   margin-top: 1rem;
   outline: none;
-  font-size: 2rem;
+  color: ${theme.colorTextArea};
 `;
 
 const ContainerBtn = styled.section`

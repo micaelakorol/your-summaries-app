@@ -9,6 +9,7 @@ color: ${(props) => (props.changeTheme ? "#fff" : "#8792F1")}
 const DescriptionSummary = styled.section`
 text-align: justify;
 font-weight: 700;
+white-space: pre-line;
 color: ${(props) => (props.changeTheme ? "#fff" : "#646161")}
 `
 

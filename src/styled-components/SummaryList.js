@@ -13,10 +13,10 @@ const List = styled.ul`
   }
   li {
     grid-template-columns: 1fr 1fr 1fr auto;
+    align-items: center;
   }
 
   @media (max-width: 50rem) {
-    /*80px*/
     li {
       display: flex;
       flex-direction: column;
@@ -59,17 +59,19 @@ const ElementListCategory = styled.li`
 `;
 
 const Category = styled.section`
-  font-weight: 500;
-  font-size: 0.9rem;
+  font-weight: 600;
+  font-size: 0.8rem;
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  color: ${theme.colorInput};
 
   svg {
     width: 2.12rem;
     height: auto;
     margin-right: 1.25rem; 
     border-radius: 0.62rem; 
+    color: ${theme.colorSvg};
   }
 
   @media (max-width: 780px) {
@@ -81,9 +83,10 @@ const Description = styled.section`
   justify-content: center;
   font-size: 0.9rem;
   text-transform: capitalize;
-  @media (max-width: 50rem) {
+  color: gray;
+  @media (max-width: 780px) {
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: .8rem;
     margin: 0.5rem;
   }
 `;
@@ -97,8 +100,8 @@ const Value = styled.section`
   text-overflow: ellipsis;
   overflow: hidden;
   margin-top: 0.5rem;
+  color: #3E3E3D;
   @media (max-width: 780px) {
-    /* 80px */
     justify-content: center;
     font-size: 1rem;
     margin: auto;
@@ -109,7 +112,7 @@ const Date = styled.section`
   border-radius: 0.31rem; 
   background: ${theme.blueLight};
   text-align: center;
-  color: #fff;
+  color: ${theme.white};
   padding: 0.62rem 3.12rem; 
   display: inline-block;
   margin: 1.25rem 0; 
