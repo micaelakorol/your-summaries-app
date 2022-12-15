@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import { theme } from './Theme';
 
 const Container = styled.main`
-background: #fff;
+background: ${theme.white};
 width: 75%;
 max-width: 70rem; 
 min-height: 75vh;

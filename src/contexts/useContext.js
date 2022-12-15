@@ -19,7 +19,6 @@ const UserProvider = ({ children }) => {
   const [changeCategory, setChangeCategory] = useState("ideas");  //Almacena el valor detectado del select:
   const [date, setDate] = useState(new Date());   // Almacena la Fecha seleccionada:
 
-  //detecta usuario:
  const [userSession, setUserSession] = useState();   // Contiene el objeto del usuario que inició sesion
   //Este state se usa para saber cuando termina de cargar la comprobacion onAuthStateChanged:
   const [loadingAuth, setLoadingAuth] = useState(true)

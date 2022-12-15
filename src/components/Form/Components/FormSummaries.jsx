@@ -50,7 +50,7 @@ setEditSummary() //actualiza la descripcion del boton al montarse
           value={resumeDescription}
           onChange={handleChange}
           placeholder="Descripción"
-          rows="6" cols="50"
+          rows="8" cols="50"
         />
       </>
       <ContainerBtn>

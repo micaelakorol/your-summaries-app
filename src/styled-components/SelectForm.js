@@ -3,19 +3,19 @@ import {theme} from './Theme'
 
 const ContainerSelect = styled.div`
     background: ${theme.blueLight};
-    color: #fff;
+    color: ${theme.white};
     cursor: pointer;
     border-radius: 0.625rem;
     position: relative;
     height: 2.5rem; 
-    width: 25%;
+    width: 27%;
     padding: 1rem;
     font-size: .9rem;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    transition: .5s ease all;
-    @media(max-width: 1024px){
-        width: 40%;
+    @media(max-width: 480px){
+        width: 60%;
     }
 `;
  

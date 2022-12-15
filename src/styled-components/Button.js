@@ -12,17 +12,20 @@ const Button = styled(Link)`
     font-family: 'Work Sans', sans-serif;
     height: 2.5rem;
     padding: 1rem 1.3rem; 
-    font-size: .9rem;
+    font-size: .888rem;
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
     display: inline-flex;
-    justify-content: space-between;
     align-items: center;
     outline: none;
     overflow: hidden;
+    &:hover{
+    transition: all 2s;
+    background: ${(props) => (props.primario ? "pink" : "#646161")}
+    }
     svg {
-        height: ${(props) => props.iconoGrande ? '100%' : '0.75rem;'};
+        height: ${(props) => props.iconoGrande ? '100%' : '.8rem;'};
         fill: white;
     }
 `;

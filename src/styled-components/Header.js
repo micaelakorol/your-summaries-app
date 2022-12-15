@@ -3,13 +3,6 @@ import styled from "styled-components";
 const Headers = styled.nav`
   width: 100%;
   padding: 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  @media (max-width: 950px) {
-    flex-wrap: wrap;
-  }
 `;
 
 const Title = styled.h1`
@@ -26,7 +19,7 @@ const TitlePrincipal = styled(Title)`
 const ContainerHeader = styled.header`
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   @media (max-width: 950px) {
     display: flex;
@@ -42,7 +35,7 @@ const ContainerHeader = styled.header`
 
 const ContainerBtn = styled.section`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 `;

@@ -6,9 +6,9 @@ import { theme } from './Theme';
 
 const Btn = styled.button`
     display: block;
-    width: 2.12rem;
-    height: 2.12rem;
-    line-height: 2.12rem;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
     text-align: center;
     margin: 1rem 1.25rem 0 0;
     border: none;

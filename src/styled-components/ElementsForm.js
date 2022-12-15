@@ -46,13 +46,17 @@ const Input = styled.input`
 `;
 
 const TextArea = styled.textarea`
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 0.5rem;
   border: none;
-  text-align: center;
+  text-align: start;
   margin-top: 1rem;
   outline: none;
   color: ${theme.colorTextArea};
+  ::placeholder{
+    text-align: center;
+    font-size: 1rem;
+  }
 `;
 
 const ContainerBtn = styled.section`
