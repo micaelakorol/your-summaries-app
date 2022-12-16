@@ -14,8 +14,9 @@ const ContainerSelect = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    @media(max-width: 480px){
+    @media(max-width: 950px){
         width: 60%;
+        z-index: 100;
     }
 `;
  

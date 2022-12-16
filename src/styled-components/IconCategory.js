@@ -7,6 +7,7 @@ import { ReactComponent as ForStudy } from "./../assets/forStudy.svg";
 import { ReactComponent as InProcess } from "./../assets/inProcess.svg";
 import { ReactComponent as Finish } from "./../assets/finish.svg";
 import { ReactComponent as English } from "./../assets/english.svg";
+import { ReactComponent as Dev } from "./../assets/dev.svg";
 import React from "react";
 const IconCategory = ({ id }) => {
   if (id === "notas") return <Note />;
@@ -18,6 +19,7 @@ const IconCategory = ({ id }) => {
   if (id === "Por estudiar") return <ForStudy />;
   if (id === "En Proceso") return <InProcess />;
   if (id === "finalizadas") return <Finish />;
+  if( id === 'programacion') return <Dev/>
 };
 
 export default IconCategory;

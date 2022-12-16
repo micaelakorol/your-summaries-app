@@ -11,7 +11,7 @@ const Button = styled(Link)`
     color: ${theme.white};
     font-family: 'Work Sans', sans-serif;
     height: 2.5rem;
-    padding: 1rem 1.3rem; 
+    padding: 1rem; 
     font-size: .888rem;
     font-weight: 500;
     cursor: pointer;

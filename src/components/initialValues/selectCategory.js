@@ -1,6 +1,7 @@
 export const categories = [
   { id: "notas", texto: "Notas" },
   { id: "marketing", texto: "Marketing" },
+  { id: "programacion", texto: "Programación" },
   { id: "ingles", texto: "Inglés" },
   { id: "otros", texto: "Otros" },
   { id: "ideas", texto: "Mis Ideas" },

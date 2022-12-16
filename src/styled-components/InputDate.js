@@ -12,11 +12,10 @@ const InputContainer = styled.section`
     cursor: pointer;
     border-radius: 0.625rem;
     height: 2.5rem;
-    width: 15rem;
+    width: 17.5rem;
     max-width: 100%;
     padding: 1rem;
     font-size: 1rem;
-    text-align: center;
     outline: none;
   }
 

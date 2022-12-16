@@ -16,11 +16,13 @@ const List = styled.ul`
     align-items: center;
   }
 
-  @media (max-width: 50rem) {
+  @media (max-width: 780px) {
     li {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+      margin: .5rem;
+      justify-content: flex-start;
     }
   }
 `;
