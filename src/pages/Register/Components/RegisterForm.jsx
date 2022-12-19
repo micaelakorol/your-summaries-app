@@ -26,6 +26,7 @@ const RegisterForm = () => {
         placeholder="email@test.com"
         autoComplete="email"
         onChange={handleChangeLoginRegister}
+        aria-required="true"
       />
       <Input
         type="password"
@@ -34,6 +35,7 @@ const RegisterForm = () => {
         placeholder="******"
         onChange={handleChangeLoginRegister}
         autoComplete="current-password"
+        aria-required="true"
       />
       <Input
         type="password"
@@ -42,6 +44,7 @@ const RegisterForm = () => {
         placeholder="Repetir Contraseña"
         onChange={handleChangeLoginRegister}
         autoComplete="current-password"
+        aria-required="true"
       />
       <ContainerBtn>
         {" "}

@@ -41,6 +41,7 @@ const Login = () => {
           onChange={handleChangeLoginRegister}
           placeholder="email@test.com"
           autoComplete="on"
+          aria-required="true"
         />
         <Input
           type="password"
@@ -49,6 +50,7 @@ const Login = () => {
           onChange={handleChangeLoginRegister}
           placeholder="******"
           autoComplete="current-password"
+          aria-required="true"
         />
         <ContainerBtn>
           {" "}
