@@ -9,7 +9,8 @@ const Button = styled(Link)`
     border: none;
     border-radius: 0.625rem;
     color: ${theme.white};
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
     height: 2.5rem;
     padding: 1rem; 
     font-size: .888rem;
